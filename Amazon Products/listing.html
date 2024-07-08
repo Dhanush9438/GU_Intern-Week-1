@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Listing</h1>
+    </header>
+    <main>
+        <aside class="filters">
+            <h2>Filter Products</h2>
+            <div class="filter-category">
+                <h3>Category</h3>
+                <ul>
+                    <li><input type="checkbox" id="electronics"><label for="electronics">Electronics</label></li>
+                    <li><input type="checkbox" id="clothing"><label for="clothing">Clothing</label></li>
+                    <li><input type="checkbox" id="home"><label for="home">Home</label></li>
+                </ul>
+            </div>
+            <div class="filter-price">
+                <h3>Price Range</h3>
+                <input type="range" min="0" max="1000" step="10">
+            </div>
+        </aside>
+        <section class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+                <h3>Product Title 1</h3>
+                <p>$100.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+                <h3>Product Title 2</h3>
+                <p>$200.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Product Image">
+                <h3>Product Title 3</h3>
+                <p>$300.00</p>
+                <button>Add to Cart</button>
+            </div>      
+        </section>
+    </main>
+</body>
+</html>
